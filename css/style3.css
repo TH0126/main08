@@ -1,0 +1,57 @@
+
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body{
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 12px;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+.dark {
+	background-color: #343a40;
+	padding-top: 5px;
+	padding-left: 2px;
+	height: 680px;
+}
+.main {
+	position: relative;
+}
+.sma-legend {
+	width: 150px;
+	height: 70px;
+	position: absolute;
+	padding: 8px;
+	font-size: 14px;
+	background-color: rgba(255, 255, 255, 0.23);
+	text-align: left;
+	z-index: 1000;
+	pointer-events: none;
+	display: block;
+	left: 3px;
+	top: 3px;
+}
+.nav-tabs .nav-link.active {
+	background-color: #343a40;
+	border-bottom: #343a40;
+	font-weight: bold;
+}
+.nav-tabs {
+	border-bottom: none;
+}
